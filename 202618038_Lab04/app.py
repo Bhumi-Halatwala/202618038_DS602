@@ -12,7 +12,7 @@ import joblib
 # Config
 # ------------------------------------------------------------------
 BASE_DIR   = Path(__file__).parent
-DATA_PATH  = BASE_DIR / "Data" / "insurance.csv"
+DATA_PATH  = BASE_DIR / "data" / "insurance.csv"
 MODEL_PATH = BASE_DIR / "artifacts" / "insurance_ols.pkl"
 META_PATH  = BASE_DIR / "artifacts" / "model_metadata.json"
 
