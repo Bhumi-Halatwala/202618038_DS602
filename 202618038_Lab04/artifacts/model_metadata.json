@@ -1,0 +1,36 @@
+{
+  "train_columns": [
+    "const",
+    "age",
+    "bmi",
+    "children",
+    "sex_male",
+    "smoker_yes",
+    "region_northwest",
+    "region_southeast",
+    "region_southwest",
+    "smoker_bmi"
+  ],
+  "model_stats": {
+    "r2": 0.8247283224158267,
+    "adj_r2": 0.8232387614165277,
+    "f_stat": 553.6720703643512,
+    "f_pvalue": 0.0,
+    "rmse_test": 4572.811239354675,
+    "mae_test": 2828.973747103962,
+    "r2_test": 0.8862045574393043,
+    "n_train": 1069
+  },
+  "coefficients": {
+    "const": -1836.0833059618606,
+    "age": 259.04401445115343,
+    "bmi": 12.491982546554041,
+    "children": 570.0416051626411,
+    "sex_male": -647.366039663937,
+    "smoker_yes": -21687.830077233823,
+    "region_northwest": -438.1614482450875,
+    "region_southeast": -895.6698080720116,
+    "region_southwest": -884.5646280994572,
+    "smoker_bmi": 1476.6039416854192
+  }
+}
